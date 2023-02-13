@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
 
-body 
-{
+body {
+
   font-family: 'Roboto';
   font-size: 115%;
-  background-color: rgb(40, 40, 40); 
+  background-color: rgb(40, 40, 40);
   color: lightgrey;
 }
 
-a:link, a:visited 
-{
+a:link,
+a:visited {
   background-color: hsl(170, 31%, 28%);
   color: white;
   padding: 15px 25px;
@@ -18,7 +18,7 @@ a:link, a:visited
   display: inline-block;
 }
 
-a:hover, a:active 
-{
+a:hover,
+a:active {
   background-color: hsl(230, 31%, 28%);
 }
