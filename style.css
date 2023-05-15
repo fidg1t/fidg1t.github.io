@@ -4,14 +4,14 @@ body {
 
   font-family: 'Roboto';
   font-size: 115%;
-  background-color: rgb(40, 40, 40);
-  color: lightgrey;
+  background-color: #101010;
+  color: #efefef;
 }
 
 a:link,
 a:visited {
-  background-color: hsl(170, 31%, 28%);
-  color: white;
+  background-color: #ce1c1b;
+  color: #efefef;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
@@ -20,5 +20,5 @@ a:visited {
 
 a:hover,
 a:active {
-  background-color: hsl(230, 31%, 28%);
+  background-color: #ce1b1b;
 }
