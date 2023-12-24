@@ -62,9 +62,10 @@ body{
 .button {
   background-color: white;
   color: black;
-  padding: 15px 25px;
+  padding: 20px 35px;
   text-align: center;
   text-decoration: none;
+  font-size: 130%;
   display: inline-block;
   border-style: none;
 }
