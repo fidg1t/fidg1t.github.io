@@ -9,7 +9,7 @@
   --bolderFont: 900;
 
   /* Colors */
-  --bgColor: #fcfcfc;
+  --bgColor: #11181d;
   --primaryColor: #4756df;
   --secondaryColor: #ff7235;
   --primaryShadow: #8b8eaf;
@@ -54,4 +54,50 @@ a:hover
 body
 {
   font-family: var(--fontFamily);
+}
+
+nav
+{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bgColor);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1
+{
+  color: var(--primaryColor);
+}
+
+nav a
+{
+  color: var(--primaryColor);
+  transition: var(--transition);
+}
+nav a:hover
+{
+  color: var(--secondaryColor);
+  border-bottom: 2px solid var(--secondaryColor);
+}
+
+nav ul
+{
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li
+{
+  font-weight: var(--boldFont);
+}
+
+.hero
+{
+
 }
