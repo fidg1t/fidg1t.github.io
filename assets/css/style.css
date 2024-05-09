@@ -21,3 +21,37 @@
   --lineHeight: 1.7rem;
   --transition: 0.3s;
 }
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+a
+{
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+a:hover
+{
+  color: var(--primaryColor);
+}
+
+body
+{
+  font-family: var(--fontFamily);
+}
