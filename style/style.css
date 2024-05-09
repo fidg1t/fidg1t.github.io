@@ -59,6 +59,20 @@ body{
   color: white;
 }
 
+.warning{
+  position: absolute;
+  bottom: 3%;
+  left: 2%;
+  font-size: 18px;
+  color: white;
+}
+
+.warning img{
+  width: 30px;
+  height: 30px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(317deg) brightness(103%) contrast(103%);
+}
+
 .button {
   background-color: white;
   color: black;
