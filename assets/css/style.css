@@ -9,12 +9,13 @@
   --bolderFont: 900;
 
   /* Colors */
-  --bgColor: #fcfcfc;
-  --primaryColor: #4756df;
-  --secondaryColor: #ff7235;
-  --primaryShadow: #8b8eaf;
-  --secondaryShadow: #a17a69;
-  --textColor: #1d1d1d;
+  --primaryBgColor: #121212;
+  --secondaryBgColor: #1c1f25;
+  --textColor: #d1d1d1;
+  --primaryColor: #43928a;
+  --secondaryColor: #a88bc9;
+  --primaryShadow: #000000;
+  --secondaryShadow: #d4c9e0;
 
     /* Specs */
   --bottomMargin: 0.5rem;
@@ -26,6 +27,7 @@
 html
 {
   scroll-behavior: smooth;
+  background-color: var(--primaryBgColor)
 }
 
 /* CSS Resets */
@@ -68,7 +70,7 @@ nav
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bgColor);
+  background-color: var(--secondaryBgColor);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -125,6 +127,7 @@ nav ul li
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primaryShadow);
+  background-color: var(--secondaryBgColor);
 }
 
 .bio h1
@@ -140,7 +143,7 @@ nav ul li
 
 .moreAbout
 {
-  background-color: var(--bgColor);
+  background-color: var(--primarBgColor);
   padding: 1rem 6rem;
 }
 
@@ -168,6 +171,7 @@ nav ul li
   width: 33rem;
   border-radius: 6px;
   box-shadow: 0px 2px 8px 2px var(--primaryShadow);
+  background-color: var(--secondaryBgColor);
 }
 
 .moreAbout ul
@@ -178,7 +182,7 @@ nav ul li
 
 .projects
 {
-  background-color: var(--bg-color);
+  background-color: var(--primaryBgColor);
   padding: 32px 0;
   margin-top: 2rem;
 }
@@ -226,9 +230,10 @@ nav ul li
 .projectCard
 {
   width: 21.875rem;
-  background-color: #fff;
+  background-color: var(--primaryBgColor);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primaryShadow);
   padding: 20px;
   margin: 10px;
+  background-color: var(--secondaryBgColor);
 }
