@@ -165,8 +165,7 @@ nav ul li
 
 .moreAbout li
 {
-  width: 32.5rem;
-  height: 12.5rem;
+  width: 33rem;
   border-radius: 6px;
   box-shadow: 0px 2px 8px 2px var(--primaryShadow);
 }
@@ -175,4 +174,61 @@ nav ul li
 {
   display: flex;
   justify-content: space-between;
+}
+
+.projects
+{
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.projectPic
+{
+  width: 65%;
+  height: 60%;
+}
+
+.projectsContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsTitle
+{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.projectContainer
+{
+  text-align: center;
+  padding: 1rem;
+}
+
+.projectContainer p
+{
+  padding: 0.4rem;
+}
+
+.projectTitle
+{
+  margin-bottom: var(--bottomMargin);
+}
+
+.projectDetails
+{
+  margin-bottom: var(--bottomMargin);
+}
+
+.projectCard
+{
+  width: 21.875rem;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primaryShadow);
+  padding: 20px;
+  margin: 10px;
 }
