@@ -9,11 +9,12 @@
   --bolderFont: 900;
 
   /* Colors */
-  --bgColor: #11181d;
+  --bgColor: #fcfcfc;
   --primaryColor: #4756df;
   --secondaryColor: #ff7235;
   --primaryShadow: #8b8eaf;
   --secondaryShadow: #a17a69;
+  --textColor: #1d1d1d;
 
     /* Specs */
   --bottomMargin: 0.5rem;
@@ -54,6 +55,7 @@ a:hover
 body
 {
   font-family: var(--fontFamily);
+  color: var(--textColor);
 }
 
 nav
@@ -113,6 +115,7 @@ nav ul li
   width: 37.5rem;
   border-radius: 12px;
   margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   box-shadow: 0px 2px 15px 2px var(--primaryShadow);
 }
 
@@ -133,4 +136,43 @@ nav ul li
 {
   line-height: var(--lineHeight);
   padding: 0.3rem 0;
+}
+
+.moreAbout
+{
+  background-color: var(--bgColor);
+  padding: 1rem 6rem;
+}
+
+.moreAbout h2
+{
+  margin-bottom: var(--bottomMargin);
+  text-align: center;
+}
+
+.moreAbout p
+{
+  line-height: var(--lineHeight);
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.moreAbout li h2
+{
+  line-height: var(--lineHeight);
+  padding: 0.4rem;
+}
+
+.moreAbout li
+{
+  width: 32.5rem;
+  height: 12.5rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 8px 2px var(--primaryShadow);
+}
+
+.moreAbout ul
+{
+  display: flex;
+  justify-content: space-between;
 }
