@@ -144,13 +144,14 @@ nav ul li
 .moreAbout
 {
   background-color: var(--primarBgColor);
-  padding: 1rem 6rem;
+  padding: 1rem 7rem;
 }
 
 .moreAbout h2
 {
   margin-bottom: var(--bottomMargin);
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .moreAbout p
@@ -163,7 +164,8 @@ nav ul li
 .moreAbout li h2
 {
   line-height: var(--lineHeight);
-  padding: 0.4rem;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
 }
 
 .moreAbout li
@@ -184,11 +186,12 @@ nav ul li
 {
   background-color: var(--primaryBgColor);
   padding: 32px 0;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .projectPic
 {
+  padding: 0.4rem;
   width: 65%;
   height: 60%;
 }
@@ -233,7 +236,7 @@ nav ul li
   background-color: var(--primaryBgColor);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primaryShadow);
-  padding: 20px;
+  padding: 1rem;
   margin: 10px;
   background-color: var(--secondaryBgColor);
 }
