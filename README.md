@@ -1,3 +1,3 @@
-## Project Overview
-
-This website was created to be a portfolio. I began designing this website with zero HTML experience, and have worked my way up to where I am now by teaching myself. Every day I learn more, and try to keep the website as updated as possible.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1c6556423adab7ad3ecdd3466c5f60ec83b59b0912ee2a2b6c4e252cc8f4311
+size 263
