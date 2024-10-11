@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f83591ea285f8a690892a97386ebc5a499520c5e3e9b5e75ea0c8239141ede17
-size 903
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+body 
+{
+  font-family: 'Roboto';
+  font-size: 115%;
+  background-color: rgb(40, 40, 40); 
+  color: lightgrey;
+}
+
+
+/* Changes the color of hyperlinks 
+a:link 
+{
+  color: hsl(170, 31%, 28%);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited 
+{
+  color: hsl(200, 31%, 28%);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  color: hsl(230, 31%, 28%);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: hsl(260, 31%, 28%);
+  background-color: transparent;
+  text-decoration: underline;
+} */
+
+a:link, a:visited {
+  background-color: hsl(170, 31%, 28%);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: hsl(230, 31%, 28%);
+}
